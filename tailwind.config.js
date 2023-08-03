@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
@@ -8,7 +7,7 @@ module.exports = {
       colors: {},
     },
   },
-  /* eslint-disable-next-line */
+  /* eslint-disable import/no-extraneous-dependencies, global-require */
   plugins: [require('daisyui')],
   daisyui: {
     themes: ['synthwave', 'lemonade'],
