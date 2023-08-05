@@ -175,8 +175,7 @@ export default function App({ Component, pageProps }: AppProps) {
                                   )}
                                 >
                                   <item.icon
-                                    className="h-6 w-6 shrink-0 text-gray-400"
-                                    aria-hidden="true"
+                                     
                                   />
                                   {item.name}
                                 </a>
