@@ -92,7 +92,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
 
 
-  const isSidebarOpen = (boolValue) => {
+  const isSidebarOpen = (boolValue:Boolean) => {
     setSidebarOpen(boolValue)
   }
 
