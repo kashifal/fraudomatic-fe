@@ -88,14 +88,11 @@ function classNames(...classes: any) {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
 
-
-
-  const isSidebarOpen = (boolValue:Boolean) => {
-    setSidebarOpen(boolValue)
-  }
-
+  const isSidebarOpen = (boolValue: boolean) => {
+    setSidebarOpen(boolValue);
+  };
 
   return (
     <div>
